@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+
+            <div class="topMobile">
+
+                <img src="public/logo.svg" alt="logo" class="logo">
+
+                <div class="burger">
+                    <span></span>
+                </div>
+
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li class="active"><a href="#">Mobile Top Up</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Rate</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </nav>
+            <button>Sign Up</button>
+        </header>
+
+        <main>
+            <div class="leftSide">
+                <div class="description">
+                    <h1>Now Buy Your <br>PIN or <span>Top Up </span><br>With Bank Transfer</h1>
+                    <p>...</p>
+                </div>
+                <button>Get Started</button>
+                <form class="inputContainer">
+                    <input minlength="1" maxlength="12" type="text" pattern="[^!@#$%\^&*\(\)]+" title="Поле не должно содержать следующие символы: !@#$%^&*()"  name="callTarget" id="callTarget" placeholder="Where do you want to call?">
+                    <button type="submit" class="searchButton"><img src="public/search.svg" alt="search"></button>
+                </form>
+                <div class="viewPricePlan">
+                    <ul class="users">
+                        <li><img src="public/user1.jpg" alt="user"></li>
+                        <li><img src="public/user2.jpg" alt="user"></li>
+                        <li><img src="public/user3.jpg" alt="user"></li>
+                        <li><img src="public/plus.svg" alt="plus"></li>
+                    </ul>
+                    <div class="rightText">45k+ Regular User. <a href="#">View Price Plan</a></div>
+                </div>
+            </div>
+            <div class="rightSide">
+                <div class="womanContainer">
+                    <img src="public/woman.png" alt="woman" class="woman">
+                    <div class="countriesContainer">
+                        <div class="countries">
+                            <img src="public/flag1.png" alt="country">
+                            <img src="public/flag2.png" alt="country">
+                            <img src="public/flag3.png" alt="country">
+                            <img src="public/flag1.png" alt="country">
+                            <img src="public/flag1.png" alt="country">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
